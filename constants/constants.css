@@ -1,0 +1,21 @@
+/*globalSettings */ 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
+
+body{
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*----------*/
+
+:root{
+  --gap: 1em 1em;
+  --index: calc(1vw + 1vh);
+  --colorDark: #000000
+}

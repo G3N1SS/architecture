@@ -1,0 +1,7 @@
+.loaded .gallery {
+  opacity: 1;
+}
+
+.loaded .header__preloader{
+  opacity: 0;
+}

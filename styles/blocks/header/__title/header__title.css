@@ -1,0 +1,6 @@
+.header__title{
+  font-size: calc(var(--index) * 2.8);
+  font-weight: 200;
+  opacity: .9;
+  margin: .2em 0 5px 0;
+}

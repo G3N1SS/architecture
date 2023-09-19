@@ -1,0 +1,6 @@
+.header__preloader{
+  font-family: Helvetica, sans-serif;
+  font-size: calc(var(--index) * .75);
+  margin: 0;
+  letter-spacing: 5px;
+}
