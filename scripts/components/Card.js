@@ -1,14 +1,14 @@
 export class Card{
   #name;
   #imageLink;
-  #templateSelector;
   #newCard;
-  #cardImage
+  #cardImage;
+  #handleClickImage;
 
-  constructor({name, link}, templateSelector){
+  constructor({name, link, handleClickImage}, templateSelector){
     this.#name = name;
     this.#imageLink = link;
-    this.#templateSelector = templateSelector;
+    this.#handleClickImage = handleClickImage
     this.#newCard = document
       .querySelector(templateSelector)
       .content.querySelector(".gallery__item")
@@ -18,6 +18,9 @@ export class Card{
   createCard = () => {
     this.#cardImage.src = this.#imageLink;
     this.#cardImage.alt = this.#name;
+    this.#cardImage.addEventListener('click', () => {
+      this.#handleClickImage(this.#name, this.#imageLink)
+    })
     return this.#newCard
   }
 }

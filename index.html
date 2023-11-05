@@ -6,22 +6,23 @@
     <meta name="viewport" content="width=device-width", initial-scale="1.0">
     <title>Architecture</title>
     <link rel="stylesheet" href="pages/index.css">
-
     <style>
       .gallery { opacity: 0; }
     </style>
-
   </head>
   <body>
     <header class="header">
       <h1 class="header__title">Architecture</h1>
       <span class="header__preloader">Loading...</span>
     </header>
-
-    <section class="gallery">
-      
+    <section class="gallery"> 
     </section>
-
+    <div class="popup popup_type_opened-image">
+      <div class="popup__image-box">
+        <button class="popup__close"></button>
+        <img class="popup__image" alt="#" src="#">
+      </div>
+    </div>
     <template class="gallery__template-card">
       <div class="gallery__item"><img class="gallery__item-img" src="#" alt="#"></div>
     </template>

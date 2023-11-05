@@ -1,4 +1,4 @@
-
+/* utils */
 @import url(../vendor/normalize.css);
 @import url(../constants/constants.css);
 /* header */
@@ -9,6 +9,14 @@
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__item/gallery__item.css);
 @import url(../blocks/gallery/__item-img/gallery__item-img.css);
+/* popup */
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__image/popup__image.css);
+@import url(../blocks/popup/__image-box/popup__image-box.css);
+@import url(../blocks/popup/__close/popup__close.css);
+@import url(../blocks/popup/__close/_image/popup__close_image.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/_type/popup_type_opened-image.css);
 /* loaded */
 @import url(../blocks/loaded/loaded.css);
 /* dark-mode */
