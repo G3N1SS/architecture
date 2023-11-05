@@ -2,14 +2,14 @@
 @import url(../vendor/normalize.css);
 @import url(../constants/constants.css);
 /* header */
-@import url(../styles/blocks/header/header.css);
-@import url(../styles/blocks/header/__title/header__title.css);
-@import url(../styles/blocks/header/__preloader/header__preloader.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__preloader/header__preloader.css);
 /* gallery */
-@import url(../styles/blocks/gallery/gallery.css);
-@import url(../styles/blocks/gallery/__item/gallery__item.css);
-@import url(../styles/blocks/gallery/__item-img/gallery__item-img.css);
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__item/gallery__item.css);
+@import url(../blocks/gallery/__item-img/gallery__item-img.css);
 /* loaded */
-@import url(../styles/blocks/loaded/loaded.css);
+@import url(../blocks/loaded/loaded.css);
 /* dark-mode */
-@import url(../styles/dark-mode/dark-mode.css);
+@import url(../dark-mode/dark-mode.css);
